@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(title="VAYUDUT Air Quality API - Named Features", debug=True)
 
 # OpenWeatherMap API Configuration
-OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "b63e164d6666a0564caced2697f49777")
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "YOUR_API_KEY")
 OPENWEATHER_ONE_CALL_URL = "https://api.openweathermap.org/data/3.0/onecall"
 
 logger.info("🚀 Starting VAYUDUT API - Named Feature Format")
